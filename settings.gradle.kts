@@ -1,0 +1,1 @@
+rootProject.name = "com.ndambuki.sensei_web_ktor"

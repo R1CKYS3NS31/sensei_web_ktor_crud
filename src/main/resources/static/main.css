@@ -1,0 +1,84 @@
+body{
+    align-content: center;
+    text-align: center;
+    background: #f2f2f2;
+    color: black;
+    position: center;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    padding: 10px;
+    /* some padding */
+    text-align: center;
+    /* center the text */
+    background: #656dd4;
+    /* green background */
+    color: white;
+    /* white text color */
+}
+input[type=text] {
+     background-color: #f2f2f2;
+     color: black;
+     width: auto;
+     height: auto;
+     padding: 8px;
+     border: none;
+     cursor: pointer;
+     display: inline-block;
+ }
+h1 {
+      font-size: 100px;
+ }
+ input[type=submit] {
+      width: auto;
+      background-color: #656dd4;
+      color: white;
+      padding: 8px;
+      cursor: pointer;
+      margin: 8px 0;
+      display: inline-block;
+      border: none;
+      box-sizing: border-box;
+  }
+  img{
+  width: 60%;
+  height: auto;
+  }
+
+table {
+    width: 100%;
+}
+table {
+     border-collapse: collapse;
+     border-spacing: 0;
+     width: 100%;
+     border: 1px solid #ddd;
+ }
+th {
+      font-weight: bold;
+  }
+table,
+th,
+td {
+    border: solid 1px #ddd;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+}
+tr:nth-child(even) {
+     background-color: #f2f2f2;
+ }
+tr:nth-child(odd){
+    background-color: white;
+ }
+hr{
+margin: 80px
+border: solid 10px black;
+}
+.delete-order{
+text-align:left;
+}
+.delete-order input[type=text] {
+              background-color: white;
+             }
